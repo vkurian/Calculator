@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded',function(){
      else if(opervalue==='sqrt()'){
 
         blank.innerHTML=NewValue;
+       
 
       }
     else {
@@ -150,7 +151,7 @@ document.addEventListener('DOMContentLoaded',function(){
             NewValue= parseFloat(currentValue)+ parseFloat(previousValue)
            
             }
-           else if (opervalue==='-'|| Decvalue==='.'){
+           else if (opervalue==='-'){
             NewValue=  parseFloat(previousValue) - parseFloat(currentValue) 
              
             }
@@ -158,7 +159,7 @@ document.addEventListener('DOMContentLoaded',function(){
           else  if (opervalue==='x' ){
             NewValue= parseFloat(currentValue) * parseFloat(previousValue)
             }
-           else if(opervalue==='/'|| Decvalue==='.'){
+           else if(opervalue==='/'){
             
 
             NewValue= parseFloat(previousValue)/parseFloat(currentValue) 
